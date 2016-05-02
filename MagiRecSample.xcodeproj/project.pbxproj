@@ -13,9 +13,14 @@
 		A852321D1CD6D9C20002CA81 /* MagiRecSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A852321B1CD6D9C20002CA81 /* MagiRecSample.xcdatamodeld */; };
 		A852321F1CD6D9C20002CA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A852321E1CD6D9C20002CA81 /* Assets.xcassets */; };
 		A85232221CD6D9C20002CA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85232201CD6D9C20002CA81 /* LaunchScreen.storyboard */; };
+		A8DFC9FE1CD6DC90005D0CA2 /* Memo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFC9FC1CD6DC90005D0CA2 /* Memo+CoreDataProperties.swift */; };
+		A8DFC9FF1CD6DC90005D0CA2 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DFC9FD1CD6DC90005D0CA2 /* Memo.swift */; };
+		DE621353F3970045400B3B26 /* Pods_MagiRecSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CF95CDCB9B895B3E0D8BD2 /* Pods_MagiRecSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B3DCDE11EB266074E48A557 /* Pods-MagiRecSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiRecSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagiRecSample/Pods-MagiRecSample.release.xcconfig"; sourceTree = "<group>"; };
+		40CF95CDCB9B895B3E0D8BD2 /* Pods_MagiRecSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagiRecSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85232111CD6D9C20002CA81 /* MagiRecSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagiRecSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85232141CD6D9C20002CA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85232161CD6D9C20002CA81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		A852321E1CD6D9C20002CA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A85232211CD6D9C20002CA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A85232231CD6D9C30002CA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8DFC9FC1CD6DC90005D0CA2 /* Memo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Memo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A8DFC9FD1CD6DC90005D0CA2 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		E31D6ABC1BD13859AA023861 /* Pods-MagiRecSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiRecSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagiRecSample/Pods-MagiRecSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE621353F3970045400B3B26 /* Pods_MagiRecSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09CA304605A5F3443EF55CF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E31D6ABC1BD13859AA023861 /* Pods-MagiRecSample.debug.xcconfig */,
+				2B3DCDE11EB266074E48A557 /* Pods-MagiRecSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57C70E86390CCBDB64B9D7FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40CF95CDCB9B895B3E0D8BD2 /* Pods_MagiRecSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A85232081CD6D9C20002CA81 = {
 			isa = PBXGroup;
 			children = (
+				A8DFC9FC1CD6DC90005D0CA2 /* Memo+CoreDataProperties.swift */,
+				A8DFC9FD1CD6DC90005D0CA2 /* Memo.swift */,
 				A85232131CD6D9C20002CA81 /* MagiRecSample */,
 				A85232121CD6D9C20002CA81 /* Products */,
+				09CA304605A5F3443EF55CF0 /* Pods */,
+				57C70E86390CCBDB64B9D7FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A85232261CD6D9C30002CA81 /* Build configuration list for PBXNativeTarget "MagiRecSample" */;
 			buildPhases = (
+				1FDA098A9F80969C8EA8441E /* Check Pods Manifest.lock */,
 				A852320D1CD6D9C20002CA81 /* Sources */,
 				A852320E1CD6D9C20002CA81 /* Frameworks */,
 				A852320F1CD6D9C20002CA81 /* Resources */,
+				BB8FEED63B3BFF3952A0DDDB /* Embed Pods Frameworks */,
+				9DCBAF644F63EF12F72BEF1C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +166,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FDA098A9F80969C8EA8441E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DCBAF644F63EF12F72BEF1C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagiRecSample/Pods-MagiRecSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8FEED63B3BFF3952A0DDDB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagiRecSample/Pods-MagiRecSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A852320D1CD6D9C20002CA81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A85232171CD6D9C20002CA81 /* ViewController.swift in Sources */,
+				A8DFC9FE1CD6DC90005D0CA2 /* Memo+CoreDataProperties.swift in Sources */,
 				A852321D1CD6D9C20002CA81 /* MagiRecSample.xcdatamodeld in Sources */,
 				A85232151CD6D9C20002CA81 /* AppDelegate.swift in Sources */,
+				A8DFC9FF1CD6DC90005D0CA2 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +334,7 @@
 		};
 		A85232271CD6D9C30002CA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31D6ABC1BD13859AA023861 /* Pods-MagiRecSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MagiRecSample/Info.plist;
@@ -262,6 +346,7 @@
 		};
 		A85232281CD6D9C30002CA81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3DCDE11EB266074E48A557 /* Pods-MagiRecSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MagiRecSample/Info.plist;
@@ -290,6 +375,7 @@
 				A85232281CD6D9C30002CA81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
