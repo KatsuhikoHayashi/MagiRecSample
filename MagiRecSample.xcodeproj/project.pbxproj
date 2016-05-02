@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A85232151CD6D9C20002CA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85232141CD6D9C20002CA81 /* AppDelegate.swift */; };
+		A85232171CD6D9C20002CA81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85232161CD6D9C20002CA81 /* ViewController.swift */; };
+		A852321A1CD6D9C20002CA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85232181CD6D9C20002CA81 /* Main.storyboard */; };
+		A852321D1CD6D9C20002CA81 /* MagiRecSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A852321B1CD6D9C20002CA81 /* MagiRecSample.xcdatamodeld */; };
+		A852321F1CD6D9C20002CA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A852321E1CD6D9C20002CA81 /* Assets.xcassets */; };
+		A85232221CD6D9C20002CA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85232201CD6D9C20002CA81 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A85232111CD6D9C20002CA81 /* MagiRecSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagiRecSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85232141CD6D9C20002CA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A85232161CD6D9C20002CA81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A85232191CD6D9C20002CA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A852321C1CD6D9C20002CA81 /* MagiRecSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagiRecSample.xcdatamodel; sourceTree = "<group>"; };
+		A852321E1CD6D9C20002CA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85232211CD6D9C20002CA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A85232231CD6D9C30002CA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A852320E1CD6D9C20002CA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85232081CD6D9C20002CA81 = {
+			isa = PBXGroup;
+			children = (
+				A85232131CD6D9C20002CA81 /* MagiRecSample */,
+				A85232121CD6D9C20002CA81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A85232121CD6D9C20002CA81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85232111CD6D9C20002CA81 /* MagiRecSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85232131CD6D9C20002CA81 /* MagiRecSample */ = {
+			isa = PBXGroup;
+			children = (
+				A85232141CD6D9C20002CA81 /* AppDelegate.swift */,
+				A85232161CD6D9C20002CA81 /* ViewController.swift */,
+				A85232181CD6D9C20002CA81 /* Main.storyboard */,
+				A852321E1CD6D9C20002CA81 /* Assets.xcassets */,
+				A85232201CD6D9C20002CA81 /* LaunchScreen.storyboard */,
+				A85232231CD6D9C30002CA81 /* Info.plist */,
+				A852321B1CD6D9C20002CA81 /* MagiRecSample.xcdatamodeld */,
+			);
+			path = MagiRecSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85232101CD6D9C20002CA81 /* MagiRecSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85232261CD6D9C30002CA81 /* Build configuration list for PBXNativeTarget "MagiRecSample" */;
+			buildPhases = (
+				A852320D1CD6D9C20002CA81 /* Sources */,
+				A852320E1CD6D9C20002CA81 /* Frameworks */,
+				A852320F1CD6D9C20002CA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagiRecSample;
+			productName = MagiRecSample;
+			productReference = A85232111CD6D9C20002CA81 /* MagiRecSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85232091CD6D9C20002CA81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Hayashidesu;
+				TargetAttributes = {
+					A85232101CD6D9C20002CA81 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A852320C1CD6D9C20002CA81 /* Build configuration list for PBXProject "MagiRecSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85232081CD6D9C20002CA81;
+			productRefGroup = A85232121CD6D9C20002CA81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85232101CD6D9C20002CA81 /* MagiRecSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A852320F1CD6D9C20002CA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85232221CD6D9C20002CA81 /* LaunchScreen.storyboard in Resources */,
+				A852321F1CD6D9C20002CA81 /* Assets.xcassets in Resources */,
+				A852321A1CD6D9C20002CA81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A852320D1CD6D9C20002CA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85232171CD6D9C20002CA81 /* ViewController.swift in Sources */,
+				A852321D1CD6D9C20002CA81 /* MagiRecSample.xcdatamodeld in Sources */,
+				A85232151CD6D9C20002CA81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A85232181CD6D9C20002CA81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85232191CD6D9C20002CA81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A85232201CD6D9C20002CA81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85232211CD6D9C20002CA81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A85232241CD6D9C30002CA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A85232251CD6D9C30002CA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85232271CD6D9C30002CA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagiRecSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hayashidesu.MagiRecSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A85232281CD6D9C30002CA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagiRecSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hayashidesu.MagiRecSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A852320C1CD6D9C20002CA81 /* Build configuration list for PBXProject "MagiRecSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85232241CD6D9C30002CA81 /* Debug */,
+				A85232251CD6D9C30002CA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85232261CD6D9C30002CA81 /* Build configuration list for PBXNativeTarget "MagiRecSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85232271CD6D9C30002CA81 /* Debug */,
+				A85232281CD6D9C30002CA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A852321B1CD6D9C20002CA81 /* MagiRecSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A852321C1CD6D9C20002CA81 /* MagiRecSample.xcdatamodel */,
+			);
+			currentVersion = A852321C1CD6D9C20002CA81 /* MagiRecSample.xcdatamodel */;
+			path = MagiRecSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A85232091CD6D9C20002CA81 /* Project object */;
+}
